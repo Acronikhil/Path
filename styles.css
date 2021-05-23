@@ -61,3 +61,77 @@ div {
 
 @media screen and (max-width: 1025px) {
 }
+
+.butt {
+  font-family: palatino;
+  font-size: 12pt;
+}
+
+.inp {
+  width: 250px;
+  height: 30px;
+  padding: 3px;
+  border: 1px solid #dde1e4;
+}
+
+.sel {
+  width: 258px;
+  position: relative;
+  left: -17px;
+  margin: 0;
+  border: 1px solid #dde1e4;
+  border-top: none;
+  font-size: 9pt;
+}
+
+.dl {
+  display: none;
+  z-index: 99;
+}
+
+.sel option {
+  padding: 3px;
+}
+
+option:hover {
+  background-color: #11e8ea;
+}
+
+butt {
+  width: 30px;
+  height: 38px;
+  position: relative;
+  left: -5px;
+  border: 1px solid #dde1e4;
+  border-left: none;
+  background-color: #11e8ea;
+  cursor: pointer;
+}
+
+h3,
+h4 {
+  text-align: center;
+}
+
+/* to hide datalist arrow in webkit */
+.loc {
+  display: block;
+  position: fixed;
+  bottom: 38vh;
+  right: 20px;
+  z-index: 99;
+  font-size: 25px;
+  border: none;
+  outline: none;
+  background-color: rgba(255, 255, 255, 0.493);
+  color: white;
+  cursor: pointer;
+  border-radius: 25px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  -o-border-radius: 25px;
+}
+.marker {
+  color: rgb(26, 26, 26);
+}
