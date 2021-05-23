@@ -127,56 +127,56 @@
     <form class="position cbg" action="PolylineString" method="post">
       <!-- <b class="titles">Start: </b> -->
 
-      <div class="input-group input-group-sm mb-3">
+      <div class="input-group input-group-sm mt-2 mb-3">
         <span class="input-group-text fw-bold col-2" id="inputGroup-sizing-sm">Start</span>
-        <input type="text" list=text_editors class="form-control" aria-label="Sizing example input"
+        <input type="text" list=text_editors class="form-control text-capitalize" aria-label="Sizing example input"
           aria-describedby="inputGroup-sizing-sm">
       </div>
       <div class='w3-center cbg'>
         <datalist class="dtl" id="text_editors">
           <select id="start" name="start" class="d_data">
-            <option value="chicago, il">Chicago</option>
-            <option value="st louis, mo">St Louis</option>
-            <option value="joplin, mo">Joplin, MO</option>
-            <option value="oklahoma city, ok">Oklahoma City</option>
-            <option value="amarillo, tx">Amarillo</option>
-            <option value="gallup, nm">Gallup, NM</option>
-            <option value="flagstaff, az">Flagstaff, AZ</option>
-            <option value="winona, az">Winona</option>
-            <option value="kingman, az">Kingman</option>
-            <option value="barstow, ca">Barstow</option>
-            <option value="san bernardino, ca">San Bernardino</option>
-            <option value="los angeles, ca">Los Angeles</option>
-            <option value="mumbai, maharashtra, india">Mumbai</option>
-            <option value="Vijay Nagar,Indore, India">Vijay Nagar,Indore, India</option>
-            <option value="NavGrah Mandin, Khargone, Madhaya Padesh, 451001">NavGrah Mandin, Khargone, Madhaya Padesh,
-              451001</option>
+            <option value="chicago">Chicago</option>
+            <option value="st louis">St Louis</option>
+            <option value="joplin">Joplin, MO</option>
+            <option value="oklahoma city">Oklahoma City</option>
+            <option value="amarillo">Amarillo</option>
+            <option value="gallup">Gallup, NM</option>
+            <option value="flagstaff">Flagstaff, AZ</option>
+            <option value="winona">Winona</option>
+            <option value="kingman">Kingman</option>
+            <option value="barstow">Barstow</option>
+            <option value="san bernardino">San Bernardino</option>
+            <option value="los angeles">Los Angeles</option>
+            <option value="pune">Pune</option>
+            <option value="Bhavarkuan">Bhavarkuan, Indore, India</option>
+            <option value="Kendriya Vidhalaya, Khargone, Madhaya Padesh, 451001">Kendriya Vidhalaya, Khargone, Madhaya
+              Padesh, 451001</option>
           </select></datalist>
       </div>
       <!-- <b class="titles">End: </b> -->
 
       <div class="input-group input-group-sm mb-3">
         <span class="input-group-text fw-bold col-2" id="inputGroup-sizing-sm">End</span>
-        <input type="text" list=text_editors class="form-control" aria-label="Sizing example input"
+        <input type="text" list=text_editors class="form-control text-capitalize" aria-label="Sizing example input"
           aria-describedby="inputGroup-sizing-sm">
       </div>
       <div class='w3-center'>
         <datalist class="dtl" id="text_editors">
           <select id="end" name="end" class="d_data">
-            <option value="chicago, il">Chicago</option>
-            <option value="st louis, mo">St Louis</option>
-            <option value="joplin, mo">Joplin, MO</option>
-            <option value="oklahoma city, ok">Oklahoma City</option>
-            <option value="amarillo, tx">Amarillo</option>
-            <option value="gallup, nm">Gallup, NM</option>
-            <option value="flagstaff, az">Flagstaff, AZ</option>
-            <option value="winona, az">Winona</option>
-            <option value="kingman, az">Kingman</option>
-            <option value="barstow, ca">Barstow</option>
-            <option value="san bernardino, ca">San Bernardino</option>
-            <option value="los angeles, ca">Los Angeles</option>
-            <option value="pune, maharashtra, india">Pune</option>
-            <option value="Bhavarkuan, Indore, India">Bhavarkuan, Indore, India</option>
+            <option value="chicago">Chicago</option>
+            <option value="st louis">St Louis</option>
+            <option value="joplin">Joplin, MO</option>
+            <option value="oklahoma city">Oklahoma City</option>
+            <option value="amarillo">Amarillo</option>
+            <option value="gallup">Gallup, NM</option>
+            <option value="flagstaff">Flagstaff, AZ</option>
+            <option value="winona">Winona</option>
+            <option value="kingman">Kingman</option>
+            <option value="barstow">Barstow</option>
+            <option value="san bernardino">San Bernardino</option>
+            <option value="los angeles">Los Angeles</option>
+            <option value="pune">Pune</option>
+            <option value="Bhavarkuan">Bhavarkuan, Indore, India</option>
             <option value="Kendriya Vidhalaya, Khargone, Madhaya Padesh, 451001">Kendriya Vidhalaya, Khargone, Madhaya
               Padesh, 451001</option>
           </select></datalist>
@@ -198,7 +198,7 @@
   <main class="containers">
     <div id="map" class="map"></div>
 
-    <button class="w3-btn w3-blue" onclick="zoomToLoc()">Get Current Location</button>
+    <!-- <button class="w3-btn w3-blue" onclick="zoomToLoc()">Get Current Location</button> -->
     <!-- <button class="w3-btn w3-blue" onclick="startNavigation()">Start Navigation</button> -->
     <p id="info" class="info"></p>
   </main>
